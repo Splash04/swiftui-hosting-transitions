@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   s.swift_version = "5.3"
 
   s.source_files = [
-     'Source/*.swift',
-     'Source/**/*.swift'
+     'Sources/*.swift',
+     'Sources/**/*.swift'
   ]
   s.module_name = 'MatchedTransitions'
 

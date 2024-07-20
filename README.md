@@ -13,6 +13,8 @@ During the development of this repository was inspired by and article about view
 
 ## Installation
 
+### [Swift Package Manager](https://swift.org/package-manager/)
+
 If you want to use Matched Transitions in an SPM project, just add it to the `dependencies` in your `Package.swift`:
 
 ```swift
@@ -34,6 +36,13 @@ targets: [
 ```
 
 You can also add it to and Xcode project by adding it as a package dependency.
+
+### [CocoaPods](http://cocoapods.org)
+
+To install `swiftui-hosting-transitions`, simply add the following line to your Podfile:
+```ruby
+pod 'swiftui-hosting-transitions'
+```
 
 ## Usage
 
