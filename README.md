@@ -59,7 +59,7 @@ struct FirstView: View {
   }
 }
 
-struct FirstView: View {
+struct SecondView: View {
   var body: some View {
     Color.red
       .frame(maxWidth: .infinity)
